@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Unico Check</string>
+    <string name="title_documents">Documents</string>
+    <string name="title_normal_camera">Normal Camera</string>
+    <string name="title_smart_camera">Smart Camera</string>
+    <string name="title_customizations">Customizations</string>
+    <string name="title_take_picture">Take a picture</string>
+    <string name="title_take_picture_cnh">CNH</string>
+    <string name="title_take_picture_rg_front">RG Frente</string>
+    <string name="title_take_picture_rg_back">RG Verso</string>
+    <string name="title_take_picture_none">None</string>
+</resources>

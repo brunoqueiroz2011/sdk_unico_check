@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_documents"
+        android:icon="@drawable/ic_document"
+        android:title="@string/title_documents" />
+
+    <item
+        android:id="@+id/navigation_normal_camera"
+        android:icon="@drawable/ic_normal_camera"
+        android:title="@string/title_normal_camera" />
+
+    <item
+        android:id="@+id/navigation_smart_camera"
+        android:icon="@drawable/ic_smart_camera"
+        android:title="@string/title_smart_camera" />
+
+    <item
+        android:id="@+id/navigation_customizations"
+        android:icon="@drawable/ic_customization"
+        android:title="@string/title_customizations" />
+
+</menu>

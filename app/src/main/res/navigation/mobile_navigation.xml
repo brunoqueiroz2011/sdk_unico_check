@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_documents">
+
+    <fragment
+        android:id="@+id/navigation_documents"
+        android:name="com.example.sdkunicocheck.ui.documents.DocumentsFragment"
+        android:label="@string/title_documents"
+        tools:layout="@layout/fragment_documents" />
+
+    <fragment
+        android:id="@+id/navigation_normal_camera"
+        android:name="com.example.sdkunicocheck.ui.normalcamera.NormalCameraFragment"
+        android:label="@string/title_normal_camera"
+        tools:layout="@layout/fragment_normal_camera" />
+
+    <fragment
+        android:id="@+id/navigation_smart_camera"
+        android:name="com.example.sdkunicocheck.ui.smartcamera.SmartCameraFragment"
+        android:label="@string/title_smart_camera"
+        tools:layout="@layout/fragment_smart_camera" />
+
+    <fragment
+        android:id="@+id/navigation_customizations"
+        android:name="com.example.sdkunicocheck.ui.customizations.customizations.CustomizationsFragment"
+        android:label="@string/title_customizations"
+        tools:layout="@layout/fragment_customizations" />
+</navigation>
